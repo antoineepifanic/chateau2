@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Marianne-ExtraBoldItalic';
+    src: url('fonts/Apple Chancery.ttf') format('truetype'); /* Chemin vers le fichier de la police */
+}
+
+/* Appliquer la police */
+h1, h2, h3 {
+    font-family: 'Marianne-ExtraBoldItalic', sans-serif;
+    color: darkblue;
+    font-weight: bolder;
+}
+p {
+    font-style: italic;
+}
+body {
+    text-align: center;
+    font-size: 2vw;
+}
+#header{
+    height:3px;
+    width:70%;
+    background-color: darkblue;
+    border-radius: 10px;
+    margin : 0 auto;
+ }
